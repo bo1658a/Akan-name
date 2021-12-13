@@ -1,10 +1,3 @@
-function check_dayofbirth(){
-
-var dayofbirth = document.getElementById("date").value;
- 
-if((dayofbirth == sunday && (male == Kwasi)|| (female == Akosua))) {
-alert(dayofbirthSunday +  "isKwasi")
-} else {
-    alert(dayofbirthSunday + "femaleAkosua");
-}
-}
+let day = document.getElementById("Day")
+let month = document.getElementById("Month")
+let year = document.getElementById("Year")
